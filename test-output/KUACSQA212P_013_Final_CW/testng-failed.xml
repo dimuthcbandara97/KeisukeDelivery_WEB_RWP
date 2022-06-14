@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KUACSQA212P_013_Final_CW]">
+  <listeners>
+    <listener class-name="com.rwpkeisuke.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="KEISUKE_WEB_AUTOMATION(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.rwpkeisuke.testCases.TC_LoginTest_DDT_001">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 3 4 5 6 7"/>
+        </methods>
+      </class> <!-- com.rwpkeisuke.testCases.TC_LoginTest_DDT_001 -->
+    </classes>
+  </test> <!-- KEISUKE_WEB_AUTOMATION(failed) -->
+</suite> <!-- Failed suite [KUACSQA212P_013_Final_CW] -->
